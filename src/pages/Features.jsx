@@ -13,59 +13,52 @@ import Emergency from "./../images/Emergency.png";
 const Features = () => {
   return (
     <div>
-      <div className="features-wrapper">
-        <img src={lgpic} alt="Large Profile" style={{ width: "100%" }} />
-      </div>
+      
       <section id="features" className="features_wrapper">
         <div className="container">
           <div className="row">
             <div className="col-12 text-center mb-5">
               <p className="features_subtitle">
-                AI- and ML-Powered Platform for Women’s Safety
+              AI- and ML-Powered Platform for Online Safety
               </p>
               <h2 className="features_title">
-                Our one-stop platform is designed to enhance women’s safety
-                through the following features:
+              Our one-stop platform is designed to combat online abuse, harassment, and cyber threats with the following advanced features:
               </h2>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-1 text-center header-img-section">
-                <img src="https://static.vecteezy.com/system/resources/previews/036/259/520/non_2x/ai-generated-wall-mount-cctv-security-camera-isolated-on-transparent-background-free-png.png" alt="Real-Time Crime Detection" width={150} height={130} />
-                <h3 className="mt-4">Real-Time Crime Detection</h3>
+                <img src="https://www.shutterstock.com/image-vector/artificial-intelligence-ai-icon-on-260nw-2517475695.jpg" alt="Real-Time Crime Detection" width={150} height={130} />
+                <h3 className="mt-4">AI-Driven Content Moderation</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                We will integrate our solution with existing CCTV cameras at the server level, processing RTPS footage in real time to detect suspicious activities like harassment or unauthorized intrusions. Using computer vision and ML algorithms, gesture and behavior recognition models identify distress signals and trigger instant alerts. Facial recognition can further enhance public safety
-                </p>
+                Online platforms often fail to detect abusive content in real time, allowing harmful messages, images, or videos to spread unchecked. Our AI-driven content moderation system actively scans and filters messages, posts, and comments, ensuring that offensive material is identified and removed before it reaches victims. Unlike traditional moderation, which relies on keyword detection, our system uses natural language processing (NLP) and machine learning to understand context, reducing false positives and improving efficiency. This approach creates a safer digital space, preventing cyberbullying, harassment, and hate speech from escalating.                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-2 text-center header-img-section">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cartogram_of_2008-2020_US_presidential_elections.svg/350px-Cartogram_of_2008-2020_US_presidential_elections.svg.png" alt="Emergency Service Support" width={150}height={130} />
-                <h3 className="mt-4">Safety Zone Classification</h3>
+                <img src="https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-smart-chatbot-cartoon-clipart-png-image_6620453.png" alt="Emergency Service Support" width={150}height={130} />
+                <h3 className="mt-4">Legal Support Chatbot</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                Classification of public spaces into Red (unsafe), Yellow (moderately safe), and Green (safe) zones is based on historical crime data, real-time feedback, and crowd-sourced inputs. Predictive ML models identify potential crime hotspots by analyzing trends and patterns, enabling authorities to take proactive measures such as increasing patrols or improving surveillance in high-risk areas.
-                </p>
+                Many victims of online abuse do not know their rights or how to report incidents legally. Our AI-powered legal chatbot provides instant legal guidance based on jurisdiction, helping victims navigate complex cyber laws effortlessly. The chatbot offers step-by-step assistance on filing complaints, reporting incidents, and connecting with legal authorities. It also helps generate legally compliant reports, ensuring proper documentation for law enforcement. With this 24/7 virtual legal assistant, victims can take immediate action without delays, empowering them to fight against cybercrime effectively.                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-1 text-center header-img-section">
-                <img src="https://thumbs.dreamstime.com/b/incident-sign-stamp-white-background-vector-illustration-incident-sign-stamp-156239613.jpg" alt="Incident Reporting" width={150} height={130}/>
-                <h3 className="mt-4">Incident Reporting</h3>
+                <img src="https://projectcentersinchennai.co.in/assets/ImagesDB/Blockchain-Project-Ideas-for-Students.png" alt="Incident Reporting" width={150} height={130}/>
+                <h3 className="mt-4">Based Evidence Storage</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                We take your communitys safety seriously, which is why we have implemented an incident reporting system with advanced encryption protocols. Your details are safeguarded using the latest cybersecurity technologies to ensure privacy and confidentiality. Additionally, AI-driven anomaly detection helps validate reports, preventing false alarms while ensuring genuine concerns receive immediate attention.
-
+                One of the biggest challenges victims face is proving online harassment due to tampered or deleted messages. Our blockchain-based evidence storage system securely logs abusive content in a tamper-proof, decentralized ledger, making it verifiable and admissible in court. Each record is encrypted and timestamped, ensuring authenticity. This guarantees that evidence cannot be altered or erased, giving victims strong legal backing.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-2 text-center header-img-section">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXRZGWoeTAPPo4i6atni2P2WFMzL0Wemwb6tspshpYgccJwFM8Gy0WaQzGSWukTD1dIRQ&usqp=CAU" alt="Live Location" width={150} height={130}/>
-                <h3 className="mt-4">Street Lighting Optimization</h3>
+                <img src="https://png.pngtree.com/png-clipart/20211014/ourmid/pngtree-mental-health-problems-flat-illustration-anxiety-disorder-png-image_3977575.png" alt="Live Location" width={150} height={130}/>
+                <h3 className="mt-4">Mental Health Assistance</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
 
-                Existing cameras analyze luminous intensity, while real-time inputs from users and authorities provide continuous updates on streetlight functionality. ML algorithms identify and prioritize poorly lit areas for urgent repairs, considering safety classifications and feedback. Smart analysis ensures well-lit pathways, enhancing security and significantly reducing crime risks in vulnerable locations.
-
+                Cyber abuse often leads to anxiety, depression, and emotional distress. Our AI-driven mental health support module offers self-help tools, guided therapy sessions, and instant counselor booking. Victims can access licensed therapists and psychological resources, ensuring their mental well-being while recovering from online harassment.
 
 
 
@@ -77,21 +70,18 @@ const Features = () => {
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-1 text-center header-img-section">
-                <img src={RideImg} alt="Emergency Chat" width={150} height={130} />
-                <h3 className="mt-4">SheRide</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKWRPLE6JL4G7erEhE8kIMHpItECb8rimtZw&s" alt="Emergency Chat" width={150} height={130} />
+                <h3 className="mt-4">AI-Powered Chrome Extension</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                A transport feature offering bike taxi services for women by women is integrated with safety protocols such as GPS tracking, panic buttons, and automated route alerts to nearby police stations. AI-powered route optimization provides personalized safety recommendations based on real-time safety zone data, ensuring secure and efficient travel. Verified drivers undergo background checks for passengers.
-                </p>
+                Our Chrome extension enhances online safety by automatically analyzing and filtering comments, messages, and posts in real-time. Using AI and NLP, it detects harmful content, hate speech, and cyber threats across various websites and social media platforms. Users receive instant alerts and content warnings, ensuring a safer browsing experience while protecting them from online harassment.                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-2 text-center header-img-section">
-                <img src={Emergency} alt="Mail Services" width={150} height={130} />
-                <h3 className="mt-4">Crime Reporting Assistance:</h3>
+                <img src="https://cdn.prod.website-files.com/64b94adadbfa4c824629b337/654f275567497c712f38faf0_DeepFake.webp" alt="Mail Services" width={150} height={130} />
+                <h3 className="mt-4">Deepfake Detection for Digital Safety</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                One-tap reporting of crimes is integrated with NLP-based chatbots for instant communication in multiple languages. AI-powered predictive analytics optimize resource allocation for emergency responses, ensuring rapid intervention. The system intelligently prioritizes incidents based on severity, directing law enforcement and medical assistance to critical locations faster
-                </p>
-              </div>
+                Our platform features AI-powered deepfake detection to combat misleading and manipulated media. Using advanced machine learning algorithms, it analyzes facial expressions, voice patterns, and inconsistencies in videos and images to identify synthetic content. This ensures users can verify authenticity, preventing the spread of false information, impersonation, and deepfake-based harassment. By integrating real-time detection and alerts, we empower individuals to stay protected from digital deception. </p>  </div>
             </div>
           </div>
         </div>

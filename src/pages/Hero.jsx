@@ -14,8 +14,8 @@ const Hero = () => {
                             <img src="https://img.freepik.com/premium-vector/stop-violence-against-women-international-violence-against-women-awareness-day_214111-555.jpg" alt='Hello Carwale' />
                         </div>
                         <div className="col-md-6 my-5 my-md-0 text-center text-md-start">
-                            <p className="banner-subtitle">Women Safety our Priority In Delhi</p>
-                            <h1 className="banner-title">Join us in making <span >Delhi a safer place for women</span>  every day and everywhere.</h1>
+                            <p className="banner-subtitle">Online Safety is Our Priority</p>
+                            <h1 className="banner-title">Join us in fighting<span > online harassment,</span>  cyber threats, and deepfake abuse-everywhere, every day.</h1>
                             <div className="learn-more-btn-section" >
                                 <Link to='/emergency' style={{backgroundColor:" rgb(216, 15, 15)"}} className="learn-more-btn btn-header " href="#car">SOS</Link>
                             </div>

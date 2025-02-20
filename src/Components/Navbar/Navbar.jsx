@@ -85,17 +85,17 @@ const Navbar = () => {
                                         </Link>
                                         <Link to='/ride' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page">She Ride Feature</a>
+                                            <a className="nav-link " aria-current="page">Mental Health Awwarness</a>
                                         </li>
                                     </Link>
                                     <Link to='/street-light' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page"> Street Light Feature</a>
+                                            <a className="nav-link " aria-current="page">ChatBot Feature</a>
                                         </li>
                                     </Link>
                                     <Link to='/crime-zones' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page"> Crime Zones</a>
+                                            <a className="nav-link " aria-current="page"> Need help talk to counsellor</a>
                                         </li>
                                     </Link>
                                     </ul>
@@ -152,24 +152,24 @@ const Navbar = () => {
                                             <a className="nav-link " aria-current="page">Contact Us</a>
                                         </li>
                                     </Link>
-                                    <Link to='/report' style={{ textDecoration: 'none' }}>
+                                    {/* <Link to='/report' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
                                             <a className="nav-link " aria-current="page">Report Incident</a>
                                         </li>
-                                    </Link>
+                                    </Link> */}
                                     <Link to='/ride' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page">She Ride Feature</a>
+                                            <a className="nav-link " aria-current="page">Mental Health Awareness</a>
                                         </li>
                                     </Link>
                                     <Link to='/street-light' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page"> Street Light Feature</a>
+                                            <a className="nav-link " aria-current="page"> ChatBot Feature</a>
                                         </li>
                                     </Link>
                                     <Link to='/crime-zones' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page">Crime Zones</a>
+                                            <a className="nav-link " aria-current="page">Need help talk to counsellor</a>
                                         </li>
                                     </Link>
                                     <Link to='/teams' style={{ textDecoration: 'none' }}>

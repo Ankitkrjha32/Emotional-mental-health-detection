@@ -26,13 +26,10 @@ const About = () => {
             <div className="col-sm-12 col-lg-5 text-center text-lg-start">
               <p className="about_number">1</p>
               <h2 className="about_title">
-                Shield for She is here for your safety
+              We Shield For She – Your Digital Safety Partner
               </h2>
               <p className="about_text " style={{ textAlign: "justify" }}>
-                We ensure that each and every human being reaches home to safety
-                , with advance features like mail notification , mobile
-                messaging and live location sharing we are the trusted bodyguard
-                for you.
+              Our platform defends against cyber threats, harassment, and deepfake abuse with AI-powered monitoring, legal assistance, and mental health support. Real-time content filtering and blockchain-secured evidence storage create a safer online environment for everyone.
               </p>
               {/* <div className="my-5">
                 <a className="learn-more-btn" href="#cars">
