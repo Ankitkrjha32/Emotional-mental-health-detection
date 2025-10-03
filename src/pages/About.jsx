@@ -31,7 +31,7 @@ const About = () => {
               <p className="about_text " style={{ textAlign: "justify" }}>
               Our platform defends against cyber threats, harassment, and deepfake abuse with AI-powered monitoring, legal assistance, and mental health support. Real-time content filtering and blockchain-secured evidence storage create a safer online environment for everyone.
               </p>
-              {/* <div className="my-5">
+              {/* <div className="my-5">d
                 <a className="learn-more-btn" href="#cars">
                   Enrole Now
                 </a>

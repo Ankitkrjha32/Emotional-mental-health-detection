@@ -3,6 +3,7 @@ import lgsmallpic from '../images/lgsmallpic.png'
 import '../styles/hero.css'
 import { Link } from 'react-router-dom'
 import '../../src/App.css'
+import pic from '../images/Untitled design.png'
 
 const Hero = () => {
     return (
@@ -11,13 +12,13 @@ const Hero = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-6 header-img-section'>
-                            <img src="https://img.freepik.com/premium-vector/stop-violence-against-women-international-violence-against-women-awareness-day_214111-555.jpg" alt='Hello Carwale' />
+                            <img src={pic} alt='Hello Carwale' />
                         </div>
                         <div className="col-md-6 my-5 my-md-0 text-center text-md-start">
                             <p className="banner-subtitle">Online Safety is Our Priority</p>
                             <h1 className="banner-title">Join us in fighting<span > online harassment,</span>  cyber threats, and deepfake abuse-everywhere, every day.</h1>
                             <div className="learn-more-btn-section" >
-                                <Link to='/emergency' style={{backgroundColor:" rgb(216, 15, 15)"}} className="learn-more-btn btn-header " href="#car">SOS</Link>
+                                <Link to='/emergency' style={{backgroundColor:" rgb(216, 15, 15)"}} className="learn-more-btn btn-header " href="#car">Report</Link>
                             </div>
                         </div>
                     </div>
